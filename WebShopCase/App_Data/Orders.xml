@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Orders>
+  <Order ID="1">
+    <CustomerID>2</CustomerID>
+    <ExVatPrice>952.40</ExVatPrice>
+    <VAT>21</VAT>
+    <VATPrice>200.00</VATPrice>
+    <TotalPrice>1152.40</TotalPrice>
+    <Products>
+      <Product ID="1">
+        <Quantity>1</Quantity>
+        <UnityPrice>24.87</UnityPrice>
+        <Price>24.87</Price>
+      </Product>
+      <Product ID="2">
+        <Quantity>1</Quantity>
+        <UnityPrice>77.11</UnityPrice>
+        <Price>77.11</Price>
+      </Product>
+      <Product ID="3">
+        <Quantity>1</Quantity>
+        <UnityPrice>29.35</UnityPrice>
+        <Price>29.35</Price>
+      </Product>
+      <Product ID="4">
+        <Quantity>1</Quantity>
+        <UnityPrice>81.59</UnityPrice>
+        <Price>81.59</Price>
+      </Product>
+      <Product ID="5">
+        <Quantity>1</Quantity>
+        <UnityPrice>33.84</UnityPrice>
+        <Price>33.84</Price>
+      </Product>
+      <Product ID="6">
+        <Quantity>2</Quantity>
+        <UnityPrice>86.08</UnityPrice>
+        <Price>172.16</Price>
+      </Product>
+      <Product ID="7">
+        <Quantity>2</Quantity>
+        <UnityPrice>38.32</UnityPrice>
+        <Price>76.64</Price>
+      </Product>
+      <Product ID="8">
+        <Quantity>2</Quantity>
+        <UnityPrice>90.56</UnityPrice>
+        <Price>181.12</Price>
+      </Product>
+      <Product ID="9">
+        <Quantity>2</Quantity>
+        <UnityPrice>42.81</UnityPrice>
+        <Price>85.62</Price>
+      </Product>
+      <Product ID="10">
+        <Quantity>2</Quantity>
+        <UnityPrice>95.05</UnityPrice>
+        <Price>190.10</Price>
+      </Product>
+    </Products>
+  </Order>
+  <Order ID="2">
+    <CustomerID>3</CustomerID>
+    <ExVatPrice>434.81</ExVatPrice>
+    <VAT>21</VAT>
+    <VATPrice>91.31</VATPrice>
+    <TotalPrice>526.12</TotalPrice>
+    <Products>
+      <Product ID="1">
+        <Quantity>1</Quantity>
+        <UnityPrice>24.87</UnityPrice>
+        <Price>24.87</Price>
+      </Product>
+      <Product ID="5">
+        <Quantity>1</Quantity>
+        <UnityPrice>33.84</UnityPrice>
+        <Price>33.84</Price>
+      </Product>
+      <Product ID="4">
+        <Quantity>2</Quantity>
+        <UnityPrice>81.59</UnityPrice>
+        <Price>163.18</Price>
+      </Product>
+      <Product ID="3">
+        <Quantity>2</Quantity>
+        <UnityPrice>29.35</UnityPrice>
+        <Price>58.70</Price>
+      </Product>
+      <Product ID="2">
+        <Quantity>2</Quantity>
+        <UnityPrice>77.11</UnityPrice>
+        <Price>154.22</Price>
+      </Product>
+    </Products>
+  </Order>
+  <Order ID="3">
+    <CustomerID>4</CustomerID>
+    <ExVatPrice>0</ExVatPrice>
+    <VAT>21</VAT>
+    <VATPrice>0</VATPrice>
+    <TotalPrice>0</TotalPrice>
+    <Products />
+  </Order>
+  <Order ID="4">
+    <CustomerID>5</CustomerID>
+    <ExVatPrice>255.73</ExVatPrice>
+    <VAT>21</VAT>
+    <VATPrice>53.70</VATPrice>
+    <TotalPrice>309.43</TotalPrice>
+    <Products>
+      <Product ID="2">
+        <Quantity>1</Quantity>
+        <UnitPrice>77.11</UnitPrice>
+        <Price>77.11</Price>
+      </Product>
+      <Product ID="3">
+        <Quantity>1</Quantity>
+        <UnitPrice>29.35</UnitPrice>
+        <Price>29.35</Price>
+      </Product>
+      <Product ID="4">
+        <Quantity>1</Quantity>
+        <UnitPrice>81.59</UnitPrice>
+        <Price>81.59</Price>
+      </Product>
+      <Product ID="5">
+        <Quantity>2</Quantity>
+        <UnitPrice>33.84</UnitPrice>
+        <Price>67.68</Price>
+      </Product>
+    </Products>
+  </Order>
+  <Order ID="5">
+    <CustomerID>6</CustomerID>
+    <ExVatPrice>183.57</ExVatPrice>
+    <VAT>21</VAT>
+    <VATPrice>38.55</VATPrice>
+    <TotalPrice>222.12</TotalPrice>
+    <Products>
+      <Product ID="1">
+        <Quantity>1</Quantity>
+        <UnitPrice>24.87</UnitPrice>
+        <Price>24.87</Price>
+      </Product>
+      <Product ID="2">
+        <Quantity>1</Quantity>
+        <UnitPrice>77.11</UnitPrice>
+        <Price>77.11</Price>
+      </Product>
+      <Product ID="4">
+        <Quantity>1</Quantity>
+        <UnitPrice>81.59</UnitPrice>
+        <Price>81.59</Price>
+      </Product>
+    </Products>
+  </Order>
+  <Order ID="6">
+    <CustomerID>7</CustomerID>
+    <ExVatPrice>393.58</ExVatPrice>
+    <VAT>21</VAT>
+    <VATPrice>82.65</VATPrice>
+    <TotalPrice>476.23</TotalPrice>
+    <Products>
+      <Product ID="1">
+        <Quantity>1</Quantity>
+        <UnitPrice>24.87</UnitPrice>
+        <Price>24.87</Price>
+      </Product>
+      <Product ID="3">
+        <Quantity>2</Quantity>
+        <UnitPrice>29.35</UnitPrice>
+        <Price>58.70</Price>
+      </Product>
+      <Product ID="6">
+        <Quantity>1</Quantity>
+        <UnitPrice>86.08</UnitPrice>
+        <Price>86.08</Price>
+      </Product>
+      <Product ID="9">
+        <Quantity>1</Quantity>
+        <UnitPrice>42.81</UnitPrice>
+        <Price>42.81</Price>
+      </Product>
+      <Product ID="8">
+        <Quantity>2</Quantity>
+        <UnitPrice>90.56</UnitPrice>
+        <Price>181.12</Price>
+      </Product>
+    </Products>
+  </Order>
+  <Order ID="7">
+    <CustomerID>8</CustomerID>
+    <ExVatPrice>952.40</ExVatPrice>
+    <VAT>21</VAT>
+    <VATPrice>200.00</VATPrice>
+    <TotalPrice>1152.40</TotalPrice>
+    <Products>
+      <Product ID="1">
+        <Quantity>1</Quantity>
+        <UnitPrice>24.87</UnitPrice>
+        <Price>24.87</Price>
+      </Product>
+      <Product ID="2">
+        <Quantity>1</Quantity>
+        <UnitPrice>77.11</UnitPrice>
+        <Price>77.11</Price>
+      </Product>
+      <Product ID="3">
+        <Quantity>1</Quantity>
+        <UnitPrice>29.35</UnitPrice>
+        <Price>29.35</Price>
+      </Product>
+      <Product ID="4">
+        <Quantity>1</Quantity>
+        <UnitPrice>81.59</UnitPrice>
+        <Price>81.59</Price>
+      </Product>
+      <Product ID="5">
+        <Quantity>1</Quantity>
+        <UnitPrice>33.84</UnitPrice>
+        <Price>33.84</Price>
+      </Product>
+      <Product ID="6">
+        <Quantity>2</Quantity>
+        <UnitPrice>86.08</UnitPrice>
+        <Price>172.16</Price>
+      </Product>
+      <Product ID="7">
+        <Quantity>2</Quantity>
+        <UnitPrice>38.32</UnitPrice>
+        <Price>76.64</Price>
+      </Product>
+      <Product ID="8">
+        <Quantity>2</Quantity>
+        <UnitPrice>90.56</UnitPrice>
+        <Price>181.12</Price>
+      </Product>
+      <Product ID="9">
+        <Quantity>2</Quantity>
+        <UnitPrice>42.81</UnitPrice>
+        <Price>85.62</Price>
+      </Product>
+      <Product ID="10">
+        <Quantity>2</Quantity>
+        <UnitPrice>95.05</UnitPrice>
+        <Price>190.10</Price>
+      </Product>
+    </Products>
+  </Order>
+  <Order ID="8">
+    <CustomerID>9</CustomerID>
+    <ExVatPrice>429.92</ExVatPrice>
+    <VAT>21</VAT>
+    <VATPrice>90.28</VATPrice>
+    <TotalPrice>520.20</TotalPrice>
+    <Products>
+      <Product ID="10">
+        <Quantity>1</Quantity>
+        <UnitPrice>95.05</UnitPrice>
+        <Price>95.05</Price>
+      </Product>
+      <Product ID="9">
+        <Quantity>1</Quantity>
+        <UnitPrice>42.81</UnitPrice>
+        <Price>42.81</Price>
+      </Product>
+      <Product ID="8">
+        <Quantity>1</Quantity>
+        <UnitPrice>90.56</UnitPrice>
+        <Price>90.56</Price>
+      </Product>
+      <Product ID="7">
+        <Quantity>1</Quantity>
+        <UnitPrice>38.32</UnitPrice>
+        <Price>38.32</Price>
+      </Product>
+      <Product ID="4">
+        <Quantity>2</Quantity>
+        <UnitPrice>81.59</UnitPrice>
+        <Price>163.18</Price>
+      </Product>
+    </Products>
+  </Order>
+  <Order ID="9">
+    <CustomerID>10</CustomerID>
+    <ExVatPrice>119.92</ExVatPrice>
+    <VAT>21</VAT>
+    <VATPrice>25.18</VATPrice>
+    <TotalPrice>145.10</TotalPrice>
+    <Products>
+      <Product ID="5">
+        <Quantity>1</Quantity>
+        <UnitPrice>33.84</UnitPrice>
+        <Price>33.84</Price>
+      </Product>
+      <Product ID="6">
+        <Quantity>1</Quantity>
+        <UnitPrice>86.08</UnitPrice>
+        <Price>86.08</Price>
+      </Product>
+    </Products>
+  </Order>
+  <Order ID="10">
+    <CustomerID>11</CustomerID>
+    <ExVatPrice>119.92</ExVatPrice>
+    <VAT>21</VAT>
+    <VATPrice>25.18</VATPrice>
+    <TotalPrice>145.10</TotalPrice>
+    <Products>
+      <Product ID="5">
+        <Quantity>1</Quantity>
+        <UnitPrice>33.84</UnitPrice>
+        <Price>33.84</Price>
+      </Product>
+      <Product ID="6">
+        <Quantity>1</Quantity>
+        <UnitPrice>86.08</UnitPrice>
+        <Price>86.08</Price>
+      </Product>
+    </Products>
+  </Order>
+  <Order ID="11">
+    <CustomerID>12</CustomerID>
+    <ExVatPrice>119.92</ExVatPrice>
+    <VAT>21</VAT>
+    <VATPrice>25.18</VATPrice>
+    <TotalPrice>145.10</TotalPrice>
+    <Products>
+      <Product ID="5">
+        <Quantity>1</Quantity>
+        <UnitPrice>33.84</UnitPrice>
+        <Price>33.84</Price>
+      </Product>
+      <Product ID="6">
+        <Quantity>1</Quantity>
+        <UnitPrice>86.08</UnitPrice>
+        <Price>86.08</Price>
+      </Product>
+    </Products>
+  </Order>
+</Orders>

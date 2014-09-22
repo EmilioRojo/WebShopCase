@@ -1,0 +1,28 @@
+﻿@model WebShopCase.Models.Customer
+
+@{
+    ViewBag.Title = "Check Out";
+    Layout = "~/Views/_LayoutPage.cshtml";
+}
+
+    
+    <div>
+        @using (Html.BeginForm())
+        {
+            <h3>Please enter your data</h3>
+            @Html.ValidationSummary()
+    <table>
+        <tr><td style="width:50%;">Title</td><td style="width:50%">@Html.TextBoxFor(x => x.Title)</td></tr>
+        <tr><td>First Name</td><td>@Html.TextBoxFor(x => x.FirstName)</td></tr>
+        <tr><td>Last Name</td><td>@Html.TextBoxFor(x => x.LastName)</td></tr>
+        <tr><td>Address</td><td>@Html.TextBoxFor(x => x.Address)</td></tr>
+        <tr><td>House Number</td><td>@Html.TextBoxFor(x => x.HouseNumber)</td></tr>
+        <tr><td>Zip Code</td><td>@Html.TextBoxFor(x => x.ZipCode)</td></tr>
+        <tr><td>City</td><td>@Html.TextBoxFor(x => x.City)</td></tr>
+        <tr><td>Email Address</td><td>@Html.TextBoxFor(x => x.Email)</td></tr>
+    </table>
+            <input type="submit" class="roundcorners" value="Save Data" />
+        }
+
+</div>
+

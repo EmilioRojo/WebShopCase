@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewBag.Title = "Products List";
+    Layout = "~/Views/_LayoutPage.cshtml";
+}
+
+    <script>
+        $(function () {
+
+            loadPage(1);
+            cartcount();
+
+            $('#btnprevious').click(function () {
+                var newpage = parseInt($('#currentpage').text()) - 1;
+                loadPage(newpage);
+            });
+
+            $('#btnnext').click(function () {
+                var newpage = parseInt($('#currentpage').text()) + 1;
+                loadPage(newpage);
+            });
+
+        });
+
+
+        function loadPage(page)
+        {
+            $.ajax("/api/productlist/" + page, {
+                type: 'GET', success: function (data) { buildList(data);}
+            });            
+        }
+
+        function buildList(data)
+        {
+            $('#products').html("");
+            $('#products').append('<tr><th style="width:80%;text-align:left;"></th><th style="width:20%;"></th></tr>');
+            for (var i = 0; i < data.productlist.length; i++) {
+                $('#products').append('<tr id="' + data.productlist[i].Id + '"><td class="productheader clickable">' + data.productlist[i].Name + '</td><td><input class="addcartbtn roundcorners" type="button" value="Add to Cart"/></tr>');
+                var innerTable = '<tr style="display:none;" id="detail_' + data.productlist[i].Id + '" class="innertable">' +
+                                 '<td><table style="width:100%;">' +
+                                 '<tr><td style="width:20%;"></td><td style="width:80%;">' + data.productlist[i].Description + '</td></tr>' +
+                                 '<tr><td></td><td>Price:' + data.productlist[i].Price + '</td></tr>' +
+                                 '</table></td><td></td></tr>'
+                $('#products').append(innerTable);
+            }
+
+
+            if (data.currentPage == data.lastPage)
+            { $('#btnnext').attr("disabled", "disabled"); } else { $('#btnnext').removeAttr("disabled"); }
+
+            if (data.currentPage == 1)//First page
+            { $('#btnprevious').attr("disabled", "disabled"); } else { $('#btnprevious').removeAttr("disabled"); }
+
+            $('#currentpage').text(data.currentPage);
+            $('#numberpages').text(data.lastPage);
+
+            //Adding events
+
+            $('.productheader').click(function () {
+                var productid = $(this).closest('tr').attr('id');
+                var innerID = '#detail_' + productid;
+                var currdisplay = $(innerID).css('display');
+                $('.innertable').css('display', 'none');
+                if (currdisplay == 'none') {
+                    $(innerID).css('display', '');
+                }
+            });
+
+            $('.addcartbtn').click(function () {
+                var row = $(this).closest('tr');
+                var productid = row.attr("id");
+                addtocart(productid);                
+            });
+        }
+
+        function addtocart(productid) {
+            $.ajax("/shoppingcart/addToCart/" + productid, {
+                type: 'POST', data: { 'prodid': productid }, success: function (data) { $('#cart').text(data); }
+            });
+        }
+        function cartcount()
+        {
+            $.ajax("/shoppingcart/cartCount", {
+                type: 'POST',  success: function (data) { $('#cart').text(data); }
+            });
+        }
+
+        </script>
+
+        <style>
+            .clickable {
+                cursor: pointer;
+            }
+
+            input:disabled
+            {
+
+                opacity:0.5;
+            }
+
+       </style>
+    <div>        
+            <h3 style="display:inline;">Products List</h3>
+            <a href="ShoppingCart" class="clickable" style="margin-left:25px;">
+                <img src="~/Content/Images/cart.png" style="vertical-align:bottom;width:30px;height:30px;" alt="Go to Cart" title="Go to Cart" />
+                (<label id="cart"></label>)
+            </a>
+        <table id="products"></table>
+        <input type="image" id="btnprevious" src="~/Content/Images/prev.png" style="width:30px;height:30px;vertical-align:bottom;" alt="Previous" title="Previous" />
+        <input type="image" id="btnnext" src="~/Content/Images/next.png" style="width:30px;height:30px;vertical-align:bottom;" alt="Next" title="Next"/>
+        <label id="currentpage"></label>/<label id="numberpages"></label>
+    </div>

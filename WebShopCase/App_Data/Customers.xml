@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Customers>
+  <Customer ID="1">
+    <Title>Mr</Title>
+    <FirstName>Emilio</FirstName>
+    <LastName>Rojo</LastName>
+    <Address>Doctor Fourquet Street</Address>
+    <HouseNumber>9</HouseNumber>
+    <ZipCode>28012</ZipCode>
+    <City>Madrid</City>
+    <Email>emilio@hotmail.com</Email>
+  </Customer>
+  <Customer ID="2">
+    <Title>Ms</Title>
+    <FirstName>Loli</FirstName>
+    <LastName>Cortina</LastName>
+    <Address>Ctra Algameca</Address>
+    <HouseNumber>12</HouseNumber>
+    <ZipCode>30205</ZipCode>
+    <City>Cartagena</City>
+    <Email>loli@hotmail.com</Email>
+  </Customer>
+  <Customer ID="3">
+    <Title>Mr</Title>
+    <FirstName>Emilio</FirstName>
+    <LastName>Rojo</LastName>
+    <Address>Doctor Fourquet Street</Address>
+    <HouseNumber>9</HouseNumber>
+    <ZipCode>28012</ZipCode>
+    <City>Madrid</City>
+    <Email>emilio@hotmail.com</Email>
+  </Customer>
+  <Customer ID="4">
+    <Title>Mr</Title>
+    <FirstName>Emilio</FirstName>
+    <LastName>Rojo</LastName>
+    <Address>Doctor Fourquet Street</Address>
+    <HouseNumber>9</HouseNumber>
+    <ZipCode>28012</ZipCode>
+    <City>Madrid</City>
+    <Email>emilio@hotmail.com</Email>
+  </Customer>
+  <Customer ID="5">
+    <Title>Mr</Title>
+    <FirstName>Pedro</FirstName>
+    <LastName>Cano</LastName>
+    <Address>Gran Vía</Address>
+    <HouseNumber>52</HouseNumber>
+    <ZipCode>28005</ZipCode>
+    <City>Madrid</City>
+    <Email>pcano@lasistencia.es</Email>
+  </Customer>
+  <Customer ID="6">
+    <Title>Baby</Title>
+    <FirstName>Lucas</FirstName>
+    <LastName>Trapaza</LastName>
+    <Address>Saguto</Address>
+    <HouseNumber>25</HouseNumber>
+    <ZipCode>35620</ZipCode>
+    <City>Valencia</City>
+    <Email>aa@aa.com</Email>
+  </Customer>
+  <Customer ID="7">
+    <Title>Mr</Title>
+    <FirstName>Evaristo</FirstName>
+    <LastName>Gutierrez</LastName>
+    <Address>Lomas</Address>
+    <HouseNumber>65</HouseNumber>
+    <ZipCode>30306</ZipCode>
+    <City>Cartagena</City>
+    <Email>evaristo@ono.es</Email>
+  </Customer>
+  <Customer ID="8">
+    <Title>MR</Title>
+    <FirstName>BEAN</FirstName>
+    <LastName>BLACK</LastName>
+    <Address>FARM</Address>
+    <HouseNumber>56</HouseNumber>
+    <ZipCode>25026</ZipCode>
+    <City>LONDON</City>
+    <Email>BEAN@BEAN.COM</Email>
+  </Customer>
+  <Customer ID="9">
+    <Title>MS</Title>
+    <FirstName>JUANA</FirstName>
+    <LastName>DE ARCO</LastName>
+    <Address>FUEGO STREET</Address>
+    <HouseNumber>9</HouseNumber>
+    <ZipCode>25362</ZipCode>
+    <City>PARIS</City>
+    <Email>JOAN@ARCH.COM</Email>
+  </Customer>
+  <Customer ID="10">
+    <Title>MR</Title>
+    <FirstName>JONAS</FirstName>
+    <LastName>LOPEZ</LastName>
+    <Address>BACALAO STREET</Address>
+    <HouseNumber>12</HouseNumber>
+    <ZipCode>56897</ZipCode>
+    <City>BOSTON</City>
+    <Email>A@A.COM</Email>
+  </Customer>
+  <Customer ID="11">
+    <Title>MR</Title>
+    <FirstName>JONAS</FirstName>
+    <LastName>LOPEZ</LastName>
+    <Address>BACALAO STREET</Address>
+    <HouseNumber>12</HouseNumber>
+    <ZipCode>56897</ZipCode>
+    <City>BOSTON</City>
+    <Email>A@A.COM</Email>
+  </Customer>
+  <Customer ID="12">
+    <Title>MR</Title>
+    <FirstName>JONAS</FirstName>
+    <LastName>LOPEZ</LastName>
+    <Address>BACALAO STREET</Address>
+    <HouseNumber>12</HouseNumber>
+    <ZipCode>56897</ZipCode>
+    <City>BOSTON</City>
+    <Email>A@A.COM</Email>
+  </Customer>
+</Customers>

@@ -1,0 +1,30 @@
+﻿body {
+    font-size:larger;
+    background-color:aliceblue;
+}
+
+.roundcorners
+{
+    background-color:ghostwhite;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    font-size: initial;
+    border-color:black;
+}
+
+input[type="text"]
+{
+    font-size:initial;
+}
+
+.validation-summary-errors
+{
+    color: red;
+}
+
+.input-validation-error
+{
+    border:1px solid red;
+}

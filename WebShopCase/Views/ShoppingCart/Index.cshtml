@@ -1,0 +1,71 @@
+﻿@model WebShopCase.Models.ShoppingCart
+
+@{
+    ViewBag.Title = "Shopping Cart";
+    Layout = "~/Views/_Layoutpage.cshtml";
+}
+
+    <style>
+        .specialrow
+        {
+            border-bottom:solid;
+            border-top:solid;
+            background-color:ghostwhite;
+        }
+
+    </style>
+
+    <div>
+        <h4>Shopping Cart</h4>
+        <table style="width:50%;border-spacing:0px;">
+            <tr>
+                <td style="width:50%" class="specialrow">Product</td>
+                <td style="width: 10%; text-align: right;" class="specialrow" >Quantity</td>
+                <td style="width: 20%; text-align: right;" class="specialrow">Price</td>
+                <td style="width: 20%; text-align: right;" class="specialrow">Product Total</td>
+            </tr>
+
+            @foreach (var item in Model.GetCart())
+            {
+                <tr>
+                    <td>@item.Product</td>
+                    <td style="text-align:right;">@item.Quantity</td>
+                    <td style="text-align:right;">@item.UnitPrice.ToString("C")</td>
+                    <td style="text-align: right;">@item.Price.ToString("C")</td>
+                </tr>
+            }
+            <tr><td colspan="2"></td><td colspan="2"><br /></td></tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="text-align: right;">Subtotal:</td>
+                <td style="text-align: right;">@ViewBag.ExVatPrice.ToString("C")</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="text-align: right;">VAT:@ViewBag.VAT%</td>
+                <td style="text-align: right;">@ViewBag.VATPrice.ToString("C")</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td style="text-align: right;" class="specialrow">Total:</td>
+                <td style="text-align: right;" class="specialrow">@ViewBag.TotalPrice.ToString("C")</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="Home"><img src="~/Content/Images/continue.png" style="width:40px;height:40px;" alt="Continue Shopping" title="Continue Shopping"/></a>
+                </td>    
+                <td></td>
+                <td></td>
+                <td style="text-align:right;">
+                    <a href="CheckOut"><img src="~/Content/images/checkout.png" style="width:40px;height:40px;" alt="Check Out" title="Check Out"></a>
+                </td>
+             </tr>
+            </table>
+    </div>
+
+
+
